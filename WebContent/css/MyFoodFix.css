@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+
+
+#login {
+	width: 900px;
+	margin: 0 auto;
+	text-align: right;
+}
+#title {
+	width: 900px;
+	margin: 0 auto;
+	height: 250px;
+	background-image: url(../img/bg/banner%20new.png);
+}
+#button {
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	background-image: url(../img/bg/bg_m5.jpg);
+	background-position: 0 500px;
+	color: #FF0;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#logo {
+	float: left;
+	width: 180px;
+	margin: 10px 0 0 10px;
+}
+#main {
+	padding: 0;
+	margin: 0 auto;
+	width: 900px;
+}
+
+#menu {
+	float: right;
+	width: auto;
+	text-align: center;
+	font-size: 30px;
+	padding: 0px;
+	margin: 10px 10px 0 0;
+	height: 50px;
+}
+a {
+	color: #CAC;
+	text-decoration: none;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+#loginbackground {
+	height: 400px;
+	width: 890px;
+	/* border: 5px solid #FFF; */
+	box-shadow: 5px 5px 10px #863;
+	background-color: #fef196;
+}
+.p1 {
+	position: relative;
+	top: 20px;
+	box-shadow: 5px 0px 10px #863;
+}
+
+.input1 {
+	height: 22px;
+}
+
+h3 {
+	line-height: 1.5px;
+}
+#back {
+	height: 500px;
+	width: 900px;
+	background-color: #FFF;
+	opacity: 0.4;
+}
+.a1 {
+	color: #000;
+	text-decoration: none;
+}
