@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="img\logo\MyFoodMap icon.png" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>MyFood</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/MyFoodFix.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-image: url(../img/bg/bg_m3.jpg);
+}
+</style>
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="bodyfirst" -->bodyfirst<!-- TemplateEndEditable -->
+
+<div id="login">
+
+<!-- 設置登入與登出的差異 -->
+<span id="login_y" style="display:${login_y}"><span id="username"><b>${name}&nbsp;</b>${times}登入</span>&nbsp;您好！&nbsp;<a href="Validateout.do"><img src="../img/btn/btn_m7.png" width="48" height="24" alt="登出"/></a></span>
+<span id="login_n" style="display:${login_n}">
+<a href="../login.jsp"><img src="../img/btn/btn_m5.png" width="47" height="24" alt="登入"/></a>
+<a href="../register.jsp"><img src="../img/btn/btn_m6.png" width="82" height="24" alt="註冊會員"/></a></span>
+</div>
+<div id="title">
+  <div id="logo"></div>
+   <div id="menu"> <a href="../frontpage.jsp"><img src="../img/btn/btn_m1.png" width="89" height="40" alt="首頁" /></a>&nbsp;
+     <a href="../search.jsp"><img src="../img/btn/btn_m2.png" width="136" height="40" alt="餐廳查詢" /></a>&nbsp;
+     <a href="../recommend.jsp"><img src="../img/btn/btn_m3.png" width="136" height="40" alt="餐廳推薦" /></a>&nbsp;
+     <a href="../foodmymap.jsp"><img src="../img/btn/btn_m4.png" width="136" height="40" alt="個人地圖" /></a>
+   </div>
+  </div>
+  <br/>
+<div id="main"><!-- TemplateBeginEditable name="Main" -->Test!<!-- TemplateEndEditable --></div>
+	<br/>
+<div id="button">
+<div id="connent"><a href="#">聯絡我們</a></div>
+<p>目前瀏覽人數：9527人</p>
+<p>主辦單位：職訓局　承辦單位：銘傳大學</p>
+<p>CopyRight&copy;&nbsp;Java專班第二組&nbsp;</p>
+</div>
+
+
+<!-- TemplateBeginEditable name="botton" -->botton<!-- TemplateEndEditable -->
+</body>
+</html>
